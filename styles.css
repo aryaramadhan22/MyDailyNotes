@@ -156,17 +156,19 @@ button.delete-btn:hover {
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
 }
-
 .modal-content {
-    background-color: #fefefe;
+    background-color: #fff;
     margin: 10% auto;
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
-    text-align: center;
+    max-height: 70%;
+    overflow-y: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     font-family: 'Press Start 2P', sans-serif;
+    word-wrap: break-word; 
 }
-
 .close-btn {
     color: #aaa;
     float: right;
